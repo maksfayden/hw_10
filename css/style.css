@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+.page{
+	font-family: Lato;
+}
+.page__main{
+	max-width: 1230px;
+	margin: 0 auto;
+	color: #424551;
+}
+
+.page__title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+.page__image{
+	border-radius: 4px;
+	margin-bottom: 60px;
+}
+.page__text{
+	font-weight: 700;
+	line-height: 150%;
+	font-size: 20px;
+	color: #1E212C;
+	margin-bottom: 25px;
+}
+.page__long-text{
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+
+.page__long-text :first-child{
+	margin-bottom: 30px;
+}
+.page__quote{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 48px;
+	padding-left: 58px;
+background: url(../img/icons/braces.png) 0 0 no-repeat;
+}
+
+.page__small-text{
+	line-height: 160%;
+	margin-bottom: 24px;
+}
+.page__list{
+	margin-bottom: 24px;
+}
+
+.page__list li{
+	line-height: 160%;
+	padding-left: 32px;
+	background: url(../img/icons/check.png) 0 5px no-repeat;
+}
+.page__final-text{
+	line-height: 160%;
+	margin-bottom: 60px;
+}
